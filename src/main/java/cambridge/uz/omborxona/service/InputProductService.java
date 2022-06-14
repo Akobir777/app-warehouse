@@ -28,17 +28,15 @@ InputProductRepository inputProductRepository;
     }
 
     public ApiResponse add(InputProductDto dto) {
-
-
+        return new ApiResponse() ;
     }
 
     public ApiResponse edit(Integer id, InputProductDto dto) {
-
+        return new ApiResponse() ;
 
     }
 
     public ApiResponse delete(Integer id) {
-
-
+        return new ApiResponse() ;
     }
 }
